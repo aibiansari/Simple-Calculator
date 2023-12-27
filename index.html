@@ -1,0 +1,104 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js"></script>
+    <title>Grid Layout Calculator</title>
+  </head>
+  <body>
+    <h1 align="center">20014119-002</h1>
+    <h2 align="center">Grid Layout Calculator</h2>
+    <hr />
+    <br />
+    <div class="calc-frame">
+      <div class="organs" id="first1">
+        <input id="inp" type="text" size="10" />
+      </div>
+      <div class="organs">
+        <button class="btns" onclick="btn('7')" }>7</button>
+      </div>
+      <div class="organs">
+        <button class="btns" onclick="btn('8')">8</button>
+      </div>
+      <div class="organs">
+        <button class="btns" onclick="btn('9')">9</button>
+      </div>
+      <div class="organs">
+        <button
+          onmouseover="mover('/')"
+          onmouseout="mout('/')"
+          id="/"
+          onclick="btn('/')"
+        >
+          &divide;
+        </button>
+      </div>
+      <div class="organs">
+        <button class="btns" onclick="btn('4')">4</button>
+      </div>
+      <div class="organs">
+        <button class="btns" onclick="btn('5')">5</button>
+      </div>
+      <div class="organs">
+        <button class="btns" onclick="btn('6')">6</button>
+      </div>
+      <div class="organs">
+        <button
+          onmouseover="mover('*')"
+          onmouseout="mout('*')"
+          id="*"
+          onclick="btn('*')"
+        >
+          &times;
+        </button>
+      </div>
+      <div class="organs">
+        <button class="btns" onclick="btn('1')">1</button>
+      </div>
+      <div class="organs">
+        <button class="btns" onclick="btn('2')">2</button>
+      </div>
+      <div class="organs">
+        <button class="btns" onclick="btn('3')">3</button>
+      </div>
+      <div class="organs">
+        <button
+          onclick="calc()"
+          ondblclick="clr()"
+          onmouseover="mover('eqbtn')"
+          onmouseout="mout('eqbtn')"
+          id="eqbtn"
+        >
+          =
+        </button>
+      </div>
+      <div class="organs">
+        <button
+          onmouseover="mover('-')"
+          onmouseout="mout('-')"
+          id="-"
+          onclick="btn('-')"
+        >
+          &minus;
+        </button>
+      </div>
+      <div class="organs">
+        <button class="btns" onclick="btn('0')">0</button>
+      </div>
+      <div class="organs">
+        <button
+          onmouseover="mover('+')"
+          onmouseout="mout('+')"
+          id="+"
+          onclick="btn('+')"
+        >
+          +
+        </button>
+      </div>
+    </div>
+    <br />
+    <br />
+    <hr />
+    <br />
+  </body>
+</html>
