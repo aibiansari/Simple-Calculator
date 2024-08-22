@@ -18,7 +18,7 @@ This is a simple calculator project built using HTML, CSS, and JavaScript. It ut
 
 Feel free to explore the code and make any improvements or modifications as needed.
 
-## Credits
-- Abdullah Ansari
+## Authors
 
-Happy coding!
+- [@aibiansari](https://www.github.com/aibiansari)
+
